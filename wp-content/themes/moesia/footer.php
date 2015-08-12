@@ -21,6 +21,7 @@
 		<?php tha_footer_top(); ?>
 		<div class="site-info container">
 			<p style="color:white">Homeless Gay Kids - Houston | P.O. Box 980935 | Houston, Texas 77098 | <a href="mailto:secretary@HomelessGayKidsHouston.org">secretary@HomelessGayKidsHouston.org</a></p>
+			<img src="images/fb.svg"/>
 		</div><!-- .site-info -->
 		<?php tha_footer_bottom(); ?>
 	</footer><!-- #colophon -->
