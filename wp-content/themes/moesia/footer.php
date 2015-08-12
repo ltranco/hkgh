@@ -20,9 +20,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<?php tha_footer_top(); ?>
 		<div class="site-info container">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'moesia' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'moesia' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %2$s by %1$s', 'moesia' ), 'aThemes', '<a href="http://athemes.com/theme/moesia">Moesia</a>' ); ?>
+			<p>Homeless Gay Kids - Houston | P.O. Box 980935 | Houston, Texas 77098 | <a href="mailto:secretary@HomelessGayKidsHouston.org">secretary@HomelessGayKidsHouston.org</a></p>
 		</div><!-- .site-info -->
 		<?php tha_footer_bottom(); ?>
 	</footer><!-- #colophon -->
