@@ -20,7 +20,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<?php tha_footer_top(); ?>
 		<div class="site-info container">
-			<p>Homeless Gay Kids - Houston | P.O. Box 980935 | Houston, Texas 77098 | <a href="mailto:secretary@HomelessGayKidsHouston.org">secretary@HomelessGayKidsHouston.org</a></p>
+			<p style="color:white">Homeless Gay Kids - Houston | P.O. Box 980935 | Houston, Texas 77098 | <a href="mailto:secretary@HomelessGayKidsHouston.org">secretary@HomelessGayKidsHouston.org</a></p>
 		</div><!-- .site-info -->
 		<?php tha_footer_bottom(); ?>
 	</footer><!-- #colophon -->
