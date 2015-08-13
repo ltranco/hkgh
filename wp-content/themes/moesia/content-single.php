@@ -26,23 +26,4 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-		<?php
-			/* translators: used between list items, there is a space after the comma */
-			$category_list = get_the_category_list( __( ', ', 'moesia' ) );
-
-			/* translators: used between list items, there is a space after the comma */
-			$tag_list = get_the_tag_list( '', __( ', ', 'moesia' ) );
-
-
-			printf(
-				$meta_text,
-				$category_list,
-				$tag_list,
-				get_permalink()
-			);
-		?>
-
-		<?php edit_post_link( __( 'Edit', 'moesia' ), '<span class="edit-link"><i class="fa fa-edit"></i>&nbsp;', '</span>' ); ?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
