@@ -318,7 +318,7 @@ function moesia_custom_styles($custom) {
 	//Menu background
 	$menu_bg = esc_html(get_theme_mod( 'menu_color' ));
 	$custom .= ".top-bar { background-color: #5bb82c; }"."\n";
-	
+
 	//Menu links
 	$menu_links_color = esc_html(get_theme_mod( 'menu_links_color' ));
 	if ( isset($menu_links_color) && ( $menu_links_color != '#ffffff' )) {
@@ -326,9 +326,8 @@ function moesia_custom_styles($custom) {
 	}	
 	//Footer background
 	$footer_bg = esc_html(get_theme_mod( 'footer_color' ));
-	if ( isset($footer_bg) && ( $footer_bg != '#222' )) {
-		$custom .= ".footer-widget-area, .site-footer { background-color: {$footer_bg}; }"."\n";
-	}		
+	$custom .= ".footer-widget-area, .site-footer { background-color: #5bb82c; }"."\n";
+			
 	
 	//Logos
 	$logo_size = get_theme_mod( 'logo_size' );
