@@ -4,31 +4,16 @@
 
 	<div id="primary" class="content-area fullwidth">
 		<main id="main" class="site-main" role="main">
-
-			<?php 
-    				query_posts(array( 
-        				'post_type' => 'portfolio',
-        				'showposts' => 10 
-    				));  
-			?>
-			
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php get_template_part( 'content', 'page' ); ?>
-				
-				<?php
-
-					// If comments are open or we have at least one comment, load up the comment template
-
-					if ( comments_open() || '0' != get_comments_number() ) :
-
-						comments_template();
-
-					endif;
-
-				?>
-
-			<?php endwhile; // end of the loop. ?>
+<?php 
+    query_posts(array( 
+        'post_type' => 'portfolio',
+        'showposts' => 10 
+    ) );  
+?>
+<?php while (have_posts()) : the_post(); ?>
+        <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+        <p><?php echo get_the_excerpt(); ?></p>
+<?php endwhile;?>
 
 
 		</main><!-- #main -->
