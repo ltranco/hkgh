@@ -317,9 +317,8 @@ function moesia_custom_styles($custom) {
 	}
 	//Menu background
 	$menu_bg = esc_html(get_theme_mod( 'menu_color' ));
-	if ( isset($menu_bg) && ( $menu_bg != '#222' )) {
-		$custom .= ".top-bar { background-color: #53A92C; }"."\n";
-	}
+	$custom .= ".top-bar { background-color: #5bb82c; }"."\n";
+	
 	//Menu links
 	$menu_links_color = esc_html(get_theme_mod( 'menu_links_color' ));
 	if ( isset($menu_links_color) && ( $menu_links_color != '#ffffff' )) {
