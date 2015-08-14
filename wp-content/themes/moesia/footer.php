@@ -16,7 +16,7 @@
 	<?php if ( is_active_sidebar( 'sidebar-3' ) || is_active_sidebar( 'sidebar-4' ) || is_active_sidebar( 'sidebar-5' ) ) : ?>
 		<?php get_sidebar('footer'); ?>
 	<?php endif; ?>
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer" role="contentinfo" style="height:73px">
 		<?php tha_footer_top(); ?>
 		<div class="site-info container">
 			<p style="color:white">Homeless Gay Kids - Houston | P.O. Box 980935, Houston, Texas 77098 | <a id="#footerLink" style="color:white;" href="mailto:secretary@HomelessGayKidsHouston.org">secretary@HomelessGayKidsHouston.org</a> | <img height="32" width="32" src="http://hkgh.lvtran.com/wp-content/themes/moesia/images/fb.svg"/></p>
