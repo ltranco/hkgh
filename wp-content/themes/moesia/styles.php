@@ -317,7 +317,7 @@ function moesia_custom_styles($custom) {
 	}
 	//Menu background
 	$menu_bg = esc_html(get_theme_mod( 'menu_color' ));
-	$custom .= ".top-bar { background-color: #84A939; height: 100px;}"."\n";
+	$custom .= ".top-bar { background-color: #7fb740; height: 100px;}"."\n";
 
 	//Menu links
 	$menu_links_color = esc_html(get_theme_mod( 'menu_links_color' ));
