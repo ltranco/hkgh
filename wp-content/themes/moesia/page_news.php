@@ -21,7 +21,7 @@ Template Name: Full width
  
 			?>
 
-			<?php while ( have_posts() ) : the_post(); ?>
+			<?php while ( $query->have_posts() ) : $query->the_post(); ?>
 				<div class="entry">
 				<h2 class="title"><?php the_title(); ?></h2>
 					<?php the_content(); ?>
