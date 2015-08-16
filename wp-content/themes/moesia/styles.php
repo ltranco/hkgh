@@ -327,7 +327,7 @@ function moesia_custom_styles($custom) {
 	//Footer background
 	$footer_bg = esc_html(get_theme_mod( 'footer_color' ));
 	$custom .= ".footer-widget-area, .site-footer { background-color: #5bb82c; padding: 7px 10px 5px 10px;}"."\n";
-	$cutom .= "#footerLink {color: #428bca;}"."\n";	
+	$custom .= "#footerLink {color: #428bca;}"."\n";	
 	
 	//Logos
 	$logo_size = get_theme_mod( 'logo_size' );
