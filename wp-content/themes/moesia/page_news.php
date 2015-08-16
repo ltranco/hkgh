@@ -19,7 +19,7 @@ Template Name: Full width
  
 			$query = new WP_Query( array( 'post_type' => 'news', 'paged' => $paged ) );
  
-			if ( $query->have_posts() ) : ?>
+			?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 				<div class="entry">
