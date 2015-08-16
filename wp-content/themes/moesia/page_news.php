@@ -14,7 +14,10 @@ Template Name: Full width
 		<main id="main" class="site-main" role="main">
 
 			<?php while ( have_posts() ) : the_post(); ?>
-				<h1>WARNING</h1>
+				<div class="entry">
+				<h2 class="title"><?php the_title(); ?></h2>
+					<?php the_content(); ?>
+				</div>
 				
 			<?php endwhile; // end of the loop. ?>
 
