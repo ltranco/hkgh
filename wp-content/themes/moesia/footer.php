@@ -16,7 +16,7 @@
 	<?php if ( is_active_sidebar( 'sidebar-3' ) || is_active_sidebar( 'sidebar-4' ) || is_active_sidebar( 'sidebar-5' ) ) : ?>
 		<?php get_sidebar('footer'); ?>
 	<?php endif; ?>
-	<style>#footerLink:hover{color:red}</style>
+	<style>#footerLink{color:red}</style>
 	<footer id="colophon" class="site-footer" role="contentinfo" style="height:53px">
 		<?php tha_footer_top(); ?>
 		<div class="site-info container">
