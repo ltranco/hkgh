@@ -14,10 +14,9 @@ Template Name: Full width
 		<main id="main" class="site-main" role="main">
 
 			<?php
-			if ( get_query_var('paged') ) $paged = get_query_var('paged');  
-			if ( get_query_var('page') ) $paged = get_query_var('page');
+			if ( get_query_var('post') ) $paged = get_query_var('post');
  
-			$query = new WP_Query( array( 'post_type' => 'news', 'paged' => $paged ) );
+			$query = new WP_Query( array( 'post_type' => 'news', 'post' => $paged ) );
  
 			?>
 
