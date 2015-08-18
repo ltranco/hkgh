@@ -430,7 +430,7 @@ function moesia_custom_styles($custom) {
     $background_img = get_post_meta( get_the_ID(), 'wpcf-page-bg-image', true );
     global $post;
     if ( $background_img ) {
-        $custom .= ".page-id-" . $post->ID . " { background-image: url('" . esc_url($background_img) . "') !important; background-attachment: fixed !important; background-repeat: no-repeat !important; background-size: cover;}"."\n";
+        $custom .= ".page-id-" . $post->ID . " { background-image: url('" . esc_url($background_img) . "') !important; background-attachment: fixed !important; background-repeat: no-repeat !important; background-size: cover !important;}"."\n";
     }    
 
     //Header background size
