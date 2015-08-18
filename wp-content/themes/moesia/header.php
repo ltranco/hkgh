@@ -66,7 +66,7 @@
 			<?php endif; ?>
 			<div class="welcome-info">
 				<?php if ( get_theme_mod('header_logo') ) : ?>
-					<img class="welcome-logo wow bounceInDown" src="<?php echo esc_url(get_theme_mod('header_logo')); ?>" />
+					<a href="http://homelessgaykidshouston.org/about"><img class="welcome-logo wow bounceInDown" src="<?php echo esc_url(get_theme_mod('header_logo')); ?>" /></a>
 				<?php elseif ( get_theme_mod('header_title') ) : ?>
 					<div class="welcome-title wow bounceInDown"><?php echo esc_attr(get_theme_mod('header_title')); ?></div>
 				<?php endif; ?>
